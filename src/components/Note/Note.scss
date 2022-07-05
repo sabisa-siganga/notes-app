@@ -1,0 +1,26 @@
+.add-note {
+    border: 1px solid #cbb0b0;
+    border-radius: 4px;
+    margin-top: 10px;
+    padding: 15px 14px;
+    width: 365px;
+
+    h4 {
+      margin: 0;
+      font-weight: 500;
+    }
+
+    p {
+        margin: 6px 0;
+    }
+
+    button {
+        background-color: #3d9fed;
+        border: 1px solid #045ba1;
+        border-radius: 5px;
+        font-size: 14px;
+        padding: 6px 10px;
+        color: #fff;
+        
+    }
+  }

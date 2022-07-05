@@ -1,0 +1,43 @@
+.newNotes {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-bottom: 18px;
+  h2 {
+    text-align: center;
+    font-size: 18px;
+    font-weight: normal;
+    color: #ff9800;
+  }
+
+  .note {
+    display: flex;
+
+    h3 {
+      margin-right: 9px;
+    }
+
+    input {
+      width: 80%;
+      height: 40px;
+      border: solid 2px #7af0ff;
+      border-radius: 10px;
+      margin-right: 9px;
+      margin-top: 20px;
+      cursor: pointer;
+      outline: none;
+    }
+  }
+  .button {
+    text-align: center;
+    padding-top: 10px;
+
+    button {
+      background-color: #ff9800;
+      color: #fff;
+      border: 1px solid #d38718;
+      border-radius: 5px;
+      padding: 10px 15px;
+      cursor: pointer;
+    }
+  }
+}
